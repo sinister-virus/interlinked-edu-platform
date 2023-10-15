@@ -10,7 +10,8 @@ Summary: An integrated platform should be developed for the integration of Schoo
 
 This will help in: 
 1. Better synchronization between the agencies controlling School education, Higher education and Technical education. 
-2. Access to real time data for framing policies related to School education, Higher education and Technical education 3. Integration in all these three verticals Objective : 
+2. Access to real time data for framing policies related to School education, Higher education and Technical education
+3. 3. Integration in all these three verticals Objective : 
 To develop an Interlinked platform for School education, Higher education and Technical education in India"
 
 ## Features
