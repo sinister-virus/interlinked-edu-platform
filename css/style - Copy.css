@@ -1,0 +1,19 @@
+/* ----------------------- Nav bar -----------------------  */        
+.nav-bar{
+    background-color: #f7f7f8;
+    display: flex;
+} 
+
+body {
+    font-family: sans-serif;
+  }
+
+.nav-bar a{
+font-size: 20px;
+color: #3C404A ;
+text-decoration: none;
+}
+
+#selected{
+    color: #5762D5 ;
+}
