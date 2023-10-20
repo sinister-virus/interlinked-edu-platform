@@ -44,11 +44,11 @@ Back End
 
 A list of the contributors to the project.
 
-Mansi Choudhari
-Saloni Rangari
-Pratham Badge
-Pratham Chopde
-Atharva Paraskar
+1. Mansi Choudhari
+2. Saloni Rangari
+3. Pratham Badge
+4. Pratham Chopde
+5. Atharva Paraskar
 
 ## License
 
