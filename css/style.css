@@ -1,6 +1,7 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
+  background-color: #fff; /* Set initial background color */
+  color: #000; /* Set initial text color */
   margin: 0;
   padding: 0;
 }
@@ -12,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .nav-bar {
@@ -43,3 +45,42 @@ header {
 #selected{
     color: #5762D5 ;
 }
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  
+}
+
+footer a {
+	text-decoration: none;
+	margin: 5px;
+	color: white;
+	width: auto;	
+}
+
+#Digital_India_img {
+	margin: 10px ;
+	width: 200px;
+	height: 100px;
+}
+
+@media (max-width:750px){
+	header {width:100%;}
+	footer {width:100%;}
+	footer p, a {font-size: 5px;}
+	#Digital_India_img {width: 50px;height: 25px;}	
+}
+	 

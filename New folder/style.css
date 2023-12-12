@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   font-family: 'Arial', sans-serif;
   background-color: #fff; /* Set initial background color */
@@ -7,13 +6,39 @@ body {
   padding: 0;
 }
 
-head {
+header {
   position: relative;
 }
 
-head img {
+header img {
   width: 100%;
   height: 350px;
+}
+
+.nav-bar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-bar li {
+  margin-right: 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: #ffc107;
 }
 
 main {
@@ -87,4 +112,16 @@ button:hover {
 
 .red {
   color: #dc3545; /* Red color for forgot username */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
 }

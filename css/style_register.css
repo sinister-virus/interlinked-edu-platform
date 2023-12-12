@@ -1,52 +1,12 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  padding: 10px 0;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-}
-
-.nav-bar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-bar li {
-  margin-right: 15px;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.nav-bar a:hover {
-  color: #ffc107;
-}
 
 form {
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 8px;
+  border: 2px solid grey;
   width: 100%;
-  max-width: 1000px;
+  max-width: 700px;
   margin: 20px auto;
 }
 
@@ -55,7 +15,12 @@ form h1 {
 }
 
 section {
-  margin-bottom: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e6ffff;
+  border-radius: 20px;  
+  border: 1px solid black;
+
 }
 
 label {
@@ -65,8 +30,7 @@ label {
   color: #333;
 }
 
-input,
-select {
+input, select {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -103,15 +67,12 @@ table {
   width: 100%;
 }
 
-table,
-th,
-td {
+table, th, td {
   border: 1px solid #ddd;
   border-collapse: collapse;
 }
 
-th,
-td {
+th, td {
   padding: 10px;
   text-align: left;
 }
