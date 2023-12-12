@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+	width: 1519px;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel img {
+	width: 1519px;
+	height: 550px;
+}
+
+.carousel-container {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+	min-width: 100%;
+}
+
+.carousel-controls {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carousel-control {
+	background: none;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+main {
+	box-shadow: 0 0 20px #cfcfcf;	
+	padding: 50px;
+	margin: 50px 200px 50px 200px;
+	border-radius: 45px;
+	border-style: solid;
+    border-color: #00000005;
+	background-color: #dcdcdc00;
+    padding-top: 0px;
+}
+
+.welcome-section,
+.about-section,
+.choose-section,
+.how-it-works-section,
+.testimonials-section,
+.join-now-section,
+.updates-section,
+.partnerships-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.welcome-section h1 {
+	font-size: 30px;
+}
+
+.cta-link {
+    color: #333;
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-link:hover {
+    background-color: #555;
+    color: white;
+}

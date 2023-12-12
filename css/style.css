@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: rgb(26, 115, 232);
   padding: 10px 0;
   color: white;
   display: flex;
@@ -16,7 +16,15 @@ header {
   position: relative;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
 .nav-bar {
+  margin: 5px;
+  margin-left:20px;
   display: flex;
   align-items: center;
 }
@@ -39,15 +47,44 @@ header {
 }
 
 .nav-bar a:hover {
-  color: #ffc107;
+  color: #000000;
+  text-decoration: underline;
 }
 
 #selected{
-    color: #5762D5 ;
+    color: #00ff9e ;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(26, 115, 232);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 footer {
-  background-color: #333;
+  background-color: rgb(26, 115, 232);
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -72,6 +109,12 @@ footer a {
 }
 
 #Digital_India_img {
+	margin: 10px ;
+	width: 200px;
+	height: 100px;
+}
+
+#Smart_India_Hackathon_2022_img {
 	margin: 10px ;
 	width: 200px;
 	height: 100px;
