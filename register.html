@@ -1,334 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
-  <link rel="stylesheet" href="css/style_r.css">
-</head>
-
-<body>
-
-  <header>
-		<!--Nav Bar--> 
-		<nav class="nav-bar">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="login.html">Log in</a></li>
-				<li><a href="register.html"  id="selected">Register</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</nav>	
-  </header>
-
-
-
-  <form id="registrationForm">
-   <h1>Registration Form</h1>
-   
-   <hr>
-   
-    <!-- Section 1 -->
-    <section>
-      <div class="form-group">
-        <label for="firstName">1.1 First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
-      </div>
-
-      <div class="form-group">
-        <label for="middleName">1.2 Middle Name:</label>
-        <input type="text" id="middleName" name="middleName">
-      </div>
-
-      <div class="form-group">
-        <label for="lastName">1.3 Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 2 -->
-    <section>
-      <div class="form-group">
-        <label for="placeOfBirth">2.1 Place of Birth:</label>
-        <input type="text" id="placeOfBirth" name="placeOfBirth" required>
-      </div>
-
-      <div class="form-group">
-        <label for="dateOfBirth">2.2 Date of Birth:</label>
-        <input type="date" id="dateOfBirth" name="dateOfBirth" required>
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 3 -->
-    <section>
-      <div class="form-group">
-        <label for="religion">3.1 Religion:</label>
-        <input type="text" id="religion" name="religion">
-      </div>
-
-      <div class="form-group">
-        <label for="caste">3.1.2 Caste:</label>
-        <input type="text" id="caste" name="caste">
-      </div>
-
-      <div class="form-group">
-        <label for="reservedCategory">3.2 Member of SC, ST, VJ/NT/OBC?</label>
-        <input type="radio" id="yes" name="isBelongsToReservedCategory" value="yes"> Yes
-        <input type="radio" id="no" name="isBelongsToReservedCategory" value="no"> No
-      </div>
-
-      <div class="form-group">
-        <label for="category">3.2.1 If Yes, write the category:</label>
-        <input type="text" id="category" name="reservedCategory">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 4 -->
-    <section>
-      <div class="form-group">
-        <label for="motherTongue">4. Mother Tongue:</label>
-        <input type="text" id="motherTongue" name="motherTongue">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 5 -->
-    <section>
-      <div class="form-group">
-        <label for="fatherName">5.1 Father's Name:</label>
-        <input type="text" id="fatherName" name="fatherName" required>
-      </div>
-
-      <div class="form-group">
-        <label for="fatherAge">5.2 Age:</label>
-        <input type="number" id="fatherAge" name="fatherAge">
-      </div>
-
-      <div class="form-group">
-        <label for="fatherQualification">5.3 Qualification:</label>
-        <input type="text" id="fatherQualification" name="fatherQualification">
-      </div>
-
-      <div class="form-group">
-        <label for="fatherOccupation">5.4 Occupation:</label>
-        <input type="text" id="fatherOccupation" name="fatherOccupation">
-      </div>
-
-      <div class="form-group">
-        <label for="fatherIncome">5.5 Annual Income:</label>
-        <input type="number" id="fatherIncome" name="fatherIncome">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 6 -->
-    <section>
-      <div class="form-group">
-        <label for="motherName">6.1 Mother's Name:</label>
-        <input type="text" id="motherName" name="motherName" required>
-      </div>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Registration Form</title>
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/style_r.css">
+	</head>
+
+	<body>
+
+	  <header>
+			<!--Nav Bar--> 
+			<nav class="nav-bar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="register.html" id="selected">Register</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>	
+	  </header>
+
+
+
+	  <form id="registrationForm">
+	   <h1>Registration Form</h1>
+	   
+	   <hr>
+	   
+		<!-- Section 1 -->
+		<section>
+		  <div class="form-group">
+			<label for="firstName">1.1 First Name:</label>
+			<input type="text" id="firstName" name="firstName" required>
+		  </div>
+
+		  <div class="form-group">
+			<label for="middleName">1.2 Middle Name:</label>
+			<input type="text" id="middleName" name="middleName">
+		  </div>
+
+		  <div class="form-group">
+			<label for="lastName">1.3 Last Name:</label>
+			<input type="text" id="lastName" name="lastName" required>
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 2 -->
+		<section>
+		  <div class="form-group">
+			<label for="placeOfBirth">2.1 Place of Birth:</label>
+			<input type="text" id="placeOfBirth" name="placeOfBirth" required>
+		  </div>
+
+		  <div class="form-group">
+			<label for="dateOfBirth">2.2 Date of Birth:</label>
+			<input type="date" id="dateOfBirth" name="dateOfBirth" required>
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 3 -->
+		<section>
+		  <div class="form-group">
+			<label for="religion">3.1 Religion:</label>
+			<input type="text" id="religion" name="religion">
+		  </div>
+
+		  <div class="form-group">
+			<label for="caste">3.1.2 Caste:</label>
+			<input type="text" id="caste" name="caste">
+		  </div>
+
+		  <div class="form-group">
+			<label for="reservedCategory">3.2 Member of SC, ST, VJ/NT/OBC?</label>
+			<input type="radio" id="yes" name="isBelongsToReservedCategory" value="yes"> Yes
+			<input type="radio" id="no" name="isBelongsToReservedCategory" value="no"> No
+		  </div>
+
+		  <div class="form-group">
+			<label for="category">3.2.1 If Yes, write the category:</label>
+			<input type="text" id="category" name="reservedCategory">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 4 -->
+		<section>
+		  <div class="form-group">
+			<label for="motherTongue">4. Mother Tongue:</label>
+			<input type="text" id="motherTongue" name="motherTongue">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 5 -->
+		<section>
+		  <div class="form-group">
+			<label for="fatherName">5.1 Father's Name:</label>
+			<input type="text" id="fatherName" name="fatherName" required>
+		  </div>
+
+		  <div class="form-group">
+			<label for="fatherAge">5.2 Age:</label>
+			<input type="number" id="fatherAge" name="fatherAge">
+		  </div>
+
+		  <div class="form-group">
+			<label for="fatherQualification">5.3 Qualification:</label>
+			<input type="text" id="fatherQualification" name="fatherQualification">
+		  </div>
+
+		  <div class="form-group">
+			<label for="fatherOccupation">5.4 Occupation:</label>
+			<input type="text" id="fatherOccupation" name="fatherOccupation">
+		  </div>
+
+		  <div class="form-group">
+			<label for="fatherIncome">5.5 Annual Income:</label>
+			<input type="number" id="fatherIncome" name="fatherIncome">
+		  </div>
+		</section>
 
-      <div class="form-group">
-        <label for="motherAge">6.2 Age:</label>
-        <input type="number" id="motherAge" name="motherAge">
-      </div>
-
-      <div class="form-group">
-        <label for="motherQualification">6.3 Qualification:</label>
-        <input type="text" id="motherQualification" name="motherQualification">
-      </div>
-
-      <div class="form-group">
-        <label for="motherOccupation">6.4 Occupation:</label>
-        <input type="text" id="motherOccupation" name="motherOccupation">
-      </div>
-
-      <div class="form-group">
-        <label for="motherIncome">6.5 Annual Income:</label>
-        <input type="number" id="motherIncome" name="motherIncome">
-      </div>
-    </section>
-
-   <hr>
+	   <hr>
 
-    <!-- Section 7 -->
-    <section>
-      <div class="form-group">
-        <label for="residentialPlotNo">7. Residential Address:</label>
-        <label for="residentialPlotNo">7.1. Plot No.:</label>
-        <input type="text" id="residentialPlotNo" name="residentialPlotNo">
+		<!-- Section 6 -->
+		<section>
+		  <div class="form-group">
+			<label for="motherName">6.1 Mother's Name:</label>
+			<input type="text" id="motherName" name="motherName" required>
+		  </div>
 
-        <label for="residentialStreetName">7.2. Street Name:</label>
-        <input type="text" id="residentialStreetName" name="residentialStreetName">
+		  <div class="form-group">
+			<label for="motherAge">6.2 Age:</label>
+			<input type="number" id="motherAge" name="motherAge">
+		  </div>
+
+		  <div class="form-group">
+			<label for="motherQualification">6.3 Qualification:</label>
+			<input type="text" id="motherQualification" name="motherQualification">
+		  </div>
 
-        <label for="residentialLandmark">7.3. Landmark:</label>
-        <input type="text" id="residentialLandmark" name="residentialLandmark">
+		  <div class="form-group">
+			<label for="motherOccupation">6.4 Occupation:</label>
+			<input type="text" id="motherOccupation" name="motherOccupation">
+		  </div>
 
-        <label for="residentialArea">7.4. Area:</label>
-        <input type="text" id="residentialArea" name="residentialArea">
+		  <div class="form-group">
+			<label for="motherIncome">6.5 Annual Income:</label>
+			<input type="number" id="motherIncome" name="motherIncome">
+		  </div>
+		</section>
 
-        <label for="residentialDistrict">7.5. District:</label>
-        <input type="text" id="residentialDistrict" name="residentialDistrict">
+	   <hr>
 
-        <label for="residentialCity">7.6. City:</label>
-        <input type="text" id="residentialCity" name="residentialCity">
+		<!-- Section 7 -->
+		<section>
+		  <div class="form-group">
+			<label for="residentialPlotNo">7. Residential Address:</label>
+			<label for="residentialPlotNo">7.1. Plot No.:</label>
+			<input type="text" id="residentialPlotNo" name="residentialPlotNo">
 
-        <label for="residentialState">7.7. State:</label>
-        <input type="text" id="residentialState" name="residentialState">
+			<label for="residentialStreetName">7.2. Street Name:</label>
+			<input type="text" id="residentialStreetName" name="residentialStreetName">
 
-        <label for="residentialPinCode">7.8. Pin Code:</label>
-        <input type="text" id="residentialPinCode" name="residentialPinCode">
+			<label for="residentialLandmark">7.3. Landmark:</label>
+			<input type="text" id="residentialLandmark" name="residentialLandmark">
 
-        <label for="residentialCountry">7.9. Country:</label>
-        <input type="text" id="residentialCountry" name="residentialCountry">
-
-        <label for="residentialAdditionalPinCode">7.10. Additional Pin Code:</label>
-        <input type="text" id="residentialAdditionalPinCode" name="residentialAdditionalPinCode">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 8 -->
-    <section>
-      <div class="form-group">
-        <label for="officePlotNo">8. Office Address:</label>
-        <label for="officePlotNo">8.1. Plot No.:</label>
-        <input type="text" id="officePlotNo" name="officePlotNo">
-
-        <label for="officeStreetName">8.2. Street Name:</label>
-        <input type="text" id="officeStreetName" name="officeStreetName">
-
-        <label for="officeLandmark">8.3. Landmark:</label>
-        <input type="text" id="officeLandmark" name="officeLandmark">
-
-        <label for="officeArea">8.4. Area:</label>
-        <input type="text" id="officeArea" name="officeArea">
-
-        <label for="officeDistrict">8.5. District:</label>
-        <input type="text" id="officeDistrict" name="officeDistrict">
-
-        <label for="officeCity">8.6. City:</label>
-        <input type="text" id="officeCity" name="officeCity">
-
-        <label for="officeState">8.7. State:</label>
-        <input type="text" id="officeState" name="officeState">
-
-        <label for="officePinCode">8.8. Pin Code:</label>
-        <input type="text" id="officePinCode" name="officePinCode">
-
-        <label for="officeCountry">8.9. Country:</label>
-        <input type="text" id="officeCountry" name="officeCountry">
-
-        <label for="officeAdditionalPinCode">8.10. Additional Pin Code:</label>
-        <input type="text" id="officeAdditionalPinCode" name="officeAdditionalPinCode">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 9 -->
-    <section>
-      <div class="form-group">
-        <label for="guardianPlotNo">9. Guardian's Address:</label>
-        <label for="guardianPlotNo">9.1. Plot No.:</label>
-        <input type="text" id="guardianPlotNo" name="guardianPlotNo">
-
-        <label for="guardianStreetName">9.2. Street Name:</label>
-        <input type="text" id="guardianStreetName" name="guardianStreetName">
-
-        <label for="guardianLandmark">9.3. Landmark:</label>
-        <input type="text" id="guardianLandmark" name="guardianLandmark">
-
-        <label for="guardianArea">9.4. Area:</label>
-        <input type="text" id="guardianArea" name="guardianArea">
-
-        <label for="guardianDistrict">9.5. District:</label>
-        <input type="text" id="guardianDistrict" name="guardianDistrict">
-
-        <label for="guardianCity">9.6. City:</label>
-        <input type="text" id="guardianCity" name="guardianCity">
-
-        <label for="guardianState">9.7. State:</label>
-        <input type="text" id="guardianState" name="guardianState">
-
-        <label for="guardianPinCode">9.8. Pin Code:</label>
-        <input type="text" id="guardianPinCode" name="guardianPinCode">
-
-        <label for="guardianCountry">9.9. Country:</label>
-        <input type="text" id="guardianCountry" name="guardianCountry">
-
-        <label for="guardianAdditionalPinCode">9.10. Additional Pin Code:</label>
-        <input type="text" id="guardianAdditionalPinCode" name="guardianAdditionalPinCode">
-      </div>
-    </section>
-
-   <hr>
-
-    <!-- Section 10 -->
-    <section>
-      <div class="form-group">
-        <label for="lastSchoolAttended">10.1 Name of the School Last Attended:</label>
-        <input type="text" id="lastSchoolAttended" name="lastSchoolAttended">
-      </div>
-
-      <div class="form-group">
-        <label for="schoolPlace">10.2 Place:</label>
-        <input type="text" id="schoolPlace" name="schoolPlace">
-      </div>
-
-      <div class="form-group">
-        <label for="passingDate">10.3 Date & Year of Passing:</label>
-        <input type="date" id="passingDate" name="passingDate">
-      </div>
-
-      <div class="form-group">
-        <label for="percentage">10.4 Percentage:</label>
-        <input type="number" id="percentage" name="percentage">
-      </div>
-
-      <div class="form-group">
-        <label for="aggregateMarks">10.5 Aggregate Marks:</label>
-        <input type="number" id="aggregateMarks" name="aggregateMarks">
-      </div>
-
-      <div class="form-group">
-        <label for="schoolState">10.2.1 State:</label>
-        <input type="text" id="schoolState" name="schoolState">
-      </div>
-
-      <div class="form-group">
-        <label for="rollNumber">10.3.1 Roll No.:</label>
-        <input type="text" id="rollNumber" name="rollNumber">
-      </div>
-
-      <div class="form-group">
-        <label for="grade">10.4.1 Grade:</label>
-        <input type="text" id="grade" name="grade">
-      </div>
-
-      <div class="form-group">
-        <label for="outOf">10.5.1 Out of:</label>
-        <input type="number" id="outOf" name="outOf">
-      </div>
-    </section>
-
-   <hr>
-
-    <button type="submit">Submit</button>
-  </form>
-
-  <script src="js/script_r.js"></script>
-</body>
+			<label for="residentialArea">7.4. Area:</label>
+			<input type="text" id="residentialArea" name="residentialArea">
+
+			<label for="residentialDistrict">7.5. District:</label>
+			<input type="text" id="residentialDistrict" name="residentialDistrict">
+
+			<label for="residentialCity">7.6. City:</label>
+			<input type="text" id="residentialCity" name="residentialCity">
+
+			<label for="residentialState">7.7. State:</label>
+			<input type="text" id="residentialState" name="residentialState">
+
+			<label for="residentialPinCode">7.8. Pin Code:</label>
+			<input type="text" id="residentialPinCode" name="residentialPinCode">
+
+			<label for="residentialCountry">7.9. Country:</label>
+			<input type="text" id="residentialCountry" name="residentialCountry">
+
+			<label for="residentialAdditionalPinCode">7.10. Additional Pin Code:</label>
+			<input type="text" id="residentialAdditionalPinCode" name="residentialAdditionalPinCode">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 8 -->
+		<section>
+		  <div class="form-group">
+			<label for="officePlotNo">8. Office Address:</label>
+			<label for="officePlotNo">8.1. Plot No.:</label>
+			<input type="text" id="officePlotNo" name="officePlotNo">
+
+			<label for="officeStreetName">8.2. Street Name:</label>
+			<input type="text" id="officeStreetName" name="officeStreetName">
+
+			<label for="officeLandmark">8.3. Landmark:</label>
+			<input type="text" id="officeLandmark" name="officeLandmark">
+
+			<label for="officeArea">8.4. Area:</label>
+			<input type="text" id="officeArea" name="officeArea">
+
+			<label for="officeDistrict">8.5. District:</label>
+			<input type="text" id="officeDistrict" name="officeDistrict">
+
+			<label for="officeCity">8.6. City:</label>
+			<input type="text" id="officeCity" name="officeCity">
+
+			<label for="officeState">8.7. State:</label>
+			<input type="text" id="officeState" name="officeState">
+
+			<label for="officePinCode">8.8. Pin Code:</label>
+			<input type="text" id="officePinCode" name="officePinCode">
+
+			<label for="officeCountry">8.9. Country:</label>
+			<input type="text" id="officeCountry" name="officeCountry">
+
+			<label for="officeAdditionalPinCode">8.10. Additional Pin Code:</label>
+			<input type="text" id="officeAdditionalPinCode" name="officeAdditionalPinCode">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 9 -->
+		<section>
+		  <div class="form-group">
+			<label for="guardianPlotNo">9. Guardian's Address:</label>
+			<label for="guardianPlotNo">9.1. Plot No.:</label>
+			<input type="text" id="guardianPlotNo" name="guardianPlotNo">
+
+			<label for="guardianStreetName">9.2. Street Name:</label>
+			<input type="text" id="guardianStreetName" name="guardianStreetName">
+
+			<label for="guardianLandmark">9.3. Landmark:</label>
+			<input type="text" id="guardianLandmark" name="guardianLandmark">
+
+			<label for="guardianArea">9.4. Area:</label>
+			<input type="text" id="guardianArea" name="guardianArea">
+
+			<label for="guardianDistrict">9.5. District:</label>
+			<input type="text" id="guardianDistrict" name="guardianDistrict">
+
+			<label for="guardianCity">9.6. City:</label>
+			<input type="text" id="guardianCity" name="guardianCity">
+
+			<label for="guardianState">9.7. State:</label>
+			<input type="text" id="guardianState" name="guardianState">
+
+			<label for="guardianPinCode">9.8. Pin Code:</label>
+			<input type="text" id="guardianPinCode" name="guardianPinCode">
+
+			<label for="guardianCountry">9.9. Country:</label>
+			<input type="text" id="guardianCountry" name="guardianCountry">
+
+			<label for="guardianAdditionalPinCode">9.10. Additional Pin Code:</label>
+			<input type="text" id="guardianAdditionalPinCode" name="guardianAdditionalPinCode">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<!-- Section 10 -->
+		<section>
+		  <div class="form-group">
+			<label for="lastSchoolAttended">10.1 Name of the School Last Attended:</label>
+			<input type="text" id="lastSchoolAttended" name="lastSchoolAttended">
+		  </div>
+
+		  <div class="form-group">
+			<label for="schoolPlace">10.2 Place:</label>
+			<input type="text" id="schoolPlace" name="schoolPlace">
+		  </div>
+
+		  <div class="form-group">
+			<label for="passingDate">10.3 Date & Year of Passing:</label>
+			<input type="date" id="passingDate" name="passingDate">
+		  </div>
+
+		  <div class="form-group">
+			<label for="percentage">10.4 Percentage:</label>
+			<input type="number" id="percentage" name="percentage">
+		  </div>
+
+		  <div class="form-group">
+			<label for="aggregateMarks">10.5 Aggregate Marks:</label>
+			<input type="number" id="aggregateMarks" name="aggregateMarks">
+		  </div>
+
+		  <div class="form-group">
+			<label for="schoolState">10.2.1 State:</label>
+			<input type="text" id="schoolState" name="schoolState">
+		  </div>
+
+		  <div class="form-group">
+			<label for="rollNumber">10.3.1 Roll No.:</label>
+			<input type="text" id="rollNumber" name="rollNumber">
+		  </div>
+
+		  <div class="form-group">
+			<label for="grade">10.4.1 Grade:</label>
+			<input type="text" id="grade" name="grade">
+		  </div>
+
+		  <div class="form-group">
+			<label for="outOf">10.5.1 Out of:</label>
+			<input type="number" id="outOf" name="outOf">
+		  </div>
+		</section>
+
+	   <hr>
+
+		<button type="submit">Submit</button>
+	  </form>
+
+	  <script src="js/script_r.js"></script>
+	</body>
 
 </html>

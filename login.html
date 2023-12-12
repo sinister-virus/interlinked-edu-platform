@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <link rel="stylesheet" href="css/style_login.css">
-</head>
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Login Page</title>
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/style_login.css">
+	</head>
 
-<body>
+	<body>
 
-  <header>
-    <!--Nav Bar-->
-    <nav class="nav-bar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="registration.html">Registration</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-	
-	<!-- Animated header image goes here -->
-    <img src="img/header.webp" id = "header_img" alt="Header Image">
-  </header>
+	  <header>
+		<!--Nav Bar--> 
+		<nav class="nav-bar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="login.html" id="selected">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+	  </header>
+	  
+		<head>
+			<!-- Animated header image goes here -->
+			<img src="img/header.webp" id = "header_img" alt="Header Image">
+		</head>
+		
+	  <main>
+		<div class="login-container">
+		  <form id="loginForm">
+			<h1>Login</h1>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
 
-  <main>
-    <div class="login-container">
-      <form id="loginForm">
-		<h1>Login</h1>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+			<!-- captcha -->
 
-        <!-- captcha -->
+			<button type="button" onclick="login()">Login</button>
 
-        <button type="button" onclick="login()">Login</button>
+			<div class="forgot-links">
+			  <a href="#" class="blue">Forgot Password</a>
+			  <a href="#" class="red">Forgot Username</a>
+			</div>
+		  </form>
+		</div>
+	  </main>
 
-        <div class="forgot-links">
-          <a href="#" class="blue">Forgot Password</a>
-          <a href="#" class="red">Forgot Username</a>
-        </div>
-      </form>
-    </div>
-  </main>
+	  <footer>
+		<p>&copy; 2023 Your Website. All Rights Reserved.</p>
+		<!-- social links, Digital India , help, and support info -->
+		<ul>
+			<li><a href="index.html">Email - help@iep.com </a></li>
+			<li><a href="login.html">Help Line No. - 1234567890</a></li>
+			<li><img src="img/Digital_India_logo.png" id = "Digital_India_img" alt="Digital India Image"></li>
+		</ul>
+	  </footer>
 
-  <footer>
-    <p>&copy; 2023 Your Website. All Rights Reserved.</p>
-    <!-- social links, Digital India , help, and support info -->
-	<ul>
-        <li><a href="index.html">Email - help@iep.com </a></li>
-        <li><a href="login.html">Help Line No. - 1234567890</a></li>
-		<li><img src="img/Digital_India_logo.png" id = "Digital_India_img" alt="Digital India Image"></li>
-    </ul>
-  </footer>
-
-  <script src="js/script_login.js"></script>
-</body>
+	  <script src="js/script_login.js"></script>
+	</body>
 
 </html>
